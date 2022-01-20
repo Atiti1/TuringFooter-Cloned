@@ -1,0 +1,141 @@
+
+.main {
+    //display: grid;
+    //justify-content: center;
+    
+}
+
+.start {
+    display: flex;
+    //justify-content: space-around;
+     margin-top: 2rem;
+    // text-align: center;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    height: 1.2rem;
+}
+
+.rightside {
+    color: white;
+   
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-left: 60rem;
+    background-color: rgb(123, 123, 243);
+    margin-top: -0.2rem;
+    text-align: center;
+    border-radius: 5%;
+    //border-top: 10rem;
+    height: 2.1rem;
+    width: 10rem;
+}
+
+.leftside {
+   margin-left: 10rem;
+   margin-top: -0.2rem;
+}
+
+.list {
+    color: white;
+    display: grid;
+    grid-template-columns: 400px 200px 250px repeat(2, 200px);
+    grid-template-rows: 20px;
+    
+    margin-bottom: 0;
+    margin-top: 20rem;
+    background-color: rgb(17, 15, 15);
+    justify-content: center;
+    height: 20rem;
+    width: 100%;
+    
+    //transition: all .2s;
+    
+}
+
+.top {
+    margin-left: 5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+
+
+
+.middle {
+    display: grid;
+    justify-content: center;
+    margin-left: 10rem;
+    color: white;
+    background-color: black;
+    float: right;
+    width: 100%;
+    height: 19rem;
+    text-align: center;
+    //margin-bottom: 5rem;
+    //margin-top: 1rem;
+    
+    
+}
+
+
+
+
+.headleft {
+    margin-left: 0.5rem;
+}
+
+.foot {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.one,
+.two,
+.three,
+.four {
+    &:hover,
+    &:active {
+        color: red;
+        cursor: pointer;
+    }
+}
+
+
+.quick {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    //margin-bottom: 0.1rem;
+    //padding: 1rem 1rem;
+}
+
+.go {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top: 0.5rem;
+}
+
+.goo {
+    font-weight: 900;
+    background-color: rgb(103, 103, 247);
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 5rem;
+    height: 2.1rem;
+    width: 10rem;
+    
+}
+
+.serm {
+    margin-top: 3rem;
+    
+}
+
+.blu {
+    
+}
